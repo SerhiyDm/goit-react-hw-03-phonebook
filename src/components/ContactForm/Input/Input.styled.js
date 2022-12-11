@@ -9,7 +9,7 @@ export const LabelStyled = styled.label`
   cursor: pointer;
 `;
 
-export const InputStyled = styled.input`
+export const InputStyled = styled.input.attrs({ required: true })`
   width: 95%;
   padding: 7px 15px;
   border-radius: 4px;
